@@ -1,6 +1,10 @@
 function inc() {
     var x=document.getElementById("cont").innerText;
     x++;
+    if(x>9 && x%10==0)
+    {
+        alert("You reached "+x);
+    }
     document.getElementById("cont").innerText=x;
 }
 
