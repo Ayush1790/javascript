@@ -1,6 +1,7 @@
 function fun() {
     const age = document.getElementById("age").value;
     const weight = document.getElementById("weight").value;
+    console.log(weight==="")
     //condition for wrong weight input
     if(weight>1000)
     {
@@ -10,6 +11,11 @@ function fun() {
     // condition for negative input
     if(age<0 || weight<0 ){
         document.getElementById("msg").innerHTML="Please fill only positive value.";
+        return;
+    }
+    if(weight==="")
+    {
+        document.getElementById("msg").innerHTML="Please fill the value of weight.";
         return;
     }
     // condition for range 5-7
