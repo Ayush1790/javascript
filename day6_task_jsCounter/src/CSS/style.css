@@ -1,0 +1,18 @@
+.div1{
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    border: 1px solid grey;
+    width: 150px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+
+}
+
+div {
+   margin: auto;
+padding: 0px auto;
+}
