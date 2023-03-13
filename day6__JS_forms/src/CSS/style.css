@@ -1,0 +1,15 @@
+.container {
+    font-size: 20px;
+}
+.container__age{
+   margin-left: 24px;
+   padding: 3px;
+}
+
+.container__weight {
+    padding: 3px;
+}
+
+.container__msg{
+    color: red;
+}
