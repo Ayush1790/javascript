@@ -10,6 +10,7 @@ function fun() {
     // condition for negative input
     if(age<0 || weight<0 ){
         document.getElementById("msg").innerHTML="Please fill only positive value.";
+        return;
     }
     // condition for range 5-7
     if(age>=5 && age<=7){
