@@ -33,6 +33,7 @@ function fun() {
             document.getElementById("msg").innerHTML="UnderWeight.";
         }
         else{
+            document.getElementById("msg").style.color="green";
             document.getElementById("msg").innerHTML="You are fit.";
         }
     }
@@ -45,6 +46,7 @@ function fun() {
             document.getElementById("msg").innerHTML="UnderWeight.";
         }
         else{
+            document.getElementById("msg").style.color="green";
             document.getElementById("msg").innerHTML="You are fit.";
         }
     }
@@ -57,6 +59,7 @@ function fun() {
             document.getElementById("msg").innerHTML="UnderWeight.";
         }
         else{
+            document.getElementById("msg").style.color="green";
             document.getElementById("msg").innerHTML="You are fit.";
         }
     }
