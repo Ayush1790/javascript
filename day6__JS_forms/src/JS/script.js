@@ -1,7 +1,6 @@
 function fun() {
     const age = document.getElementById("age").value;
     const weight = document.getElementById("weight").value;
-   
     //condition for wrong weight input
     if(weight>1000)
     {
